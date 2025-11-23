@@ -1,0 +1,27 @@
+import React from "react";
+import PublicationItem from "../components/UI/PublicationItem";
+
+export default function Publications() {
+  return (
+    <section className="section">
+      <h2>Publications</h2>
+
+      <h3>Journal Articles</h3>
+      <PublicationItem
+        authors="Khan, M. M., Khan, F. S., Nadeem, M., Khan, T. H., Haider, S., & Daas,"
+        year="2025"
+        title="Scalability and Efficiency Analysis of Hyperledger Fabric and Private Ethereum."
+        venue="Computers, Vol. 14, Issue 4."
+        link=" https://doi.org/10.3390/computers14040132"
+      />
+
+      <h3>Under Review / In Submission</h3>
+      <PublicationItem
+        authors="Khan, M.M., Imran, Z., & Hasan, N.U."
+        year="2025"
+        title="Performance Analysis of Double Auction Implementations for P2P Energy Trading."
+        venue="Accepted in IEEE PES Innovative Smart Grid Technologies (ISGT) Middle East 2025"
+      />
+    </section>
+  );
+}

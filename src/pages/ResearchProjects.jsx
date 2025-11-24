@@ -35,23 +35,24 @@ export default function ResearchProjects() {
       />
 
       <div className="media-row">
-        <video controls className="project-media">
-          <source src="/videos/Performance Evaluation.mp4" type="video/mp4" />
-        </video>
+        <div className="media-item">
+          <video controls className="project-media">
+            <source src="/videos/Performance Evaluation.mp4" type="video/mp4" />
+          </video>
+          <p className="media-caption">Video 1: Performance evaluation demo</p>
+        </div>
 
-        <div className="image-container">
+        <div className="media-item">
           <img
             src="/project-images/RPi node.png"
             alt="Blockchain node hardware"
-            className="project-image"
+            className="project-image clickable-image"
             onClick={() => {
               setModalImage("/project-images/RPi node.png");
               setModalOpen(true);
             }}
           />
-          <p className="media-caption">
-            Fig. 1: Complete blockchain node.
-          </p>
+          <p className="media-caption">Fig. 1: Complete blockchain node.</p>
         </div>
       </div>
 
@@ -87,7 +88,7 @@ export default function ResearchProjects() {
       />
 
       <div className="project-video">
-        <video controls width="100%" style={{ borderRadius: "8px" }}>
+        <video controls className="full-video">
           <source src="/videos/Performance Evaluation.mp4" type="video/mp4" />
         </video>
         <p className="media-caption">
@@ -104,7 +105,7 @@ export default function ResearchProjects() {
       />
 
       <div className="project-video">
-        <video controls width="100%" style={{ borderRadius: "8px" }}>
+        <video controls className="full-video">
           <source src="/videos/Cross-border-remittance.mp4" type="video/mp4" />
         </video>
         <p className="media-caption">

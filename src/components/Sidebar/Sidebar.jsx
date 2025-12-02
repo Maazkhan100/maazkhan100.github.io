@@ -23,7 +23,7 @@ export default function Sidebar() {
         {/* LOCATION */}
         <li style={{ display: "flex", alignItems: "center", gap: "0.45rem", color: "#000" }}>
           <FaMapMarkerAlt size={15} color="#000" />
-          <span style={{ color: "#000", fontSize: "0.95rem" }}>Ghalegay Swat, Pakistan</span>
+          <span style={{ color: "#000", fontSize: "0.95rem" }}>LUMS DHA Phase 5, Lahore, Pakistan</span>
         </li>
 
         {/* EMAIL */}

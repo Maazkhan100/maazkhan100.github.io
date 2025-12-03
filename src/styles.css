@@ -43,6 +43,14 @@ body {
     overflow-y: auto;
 }
 
+.profile-image,
+.name {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .link-design {
     color: #1a73e8;
 }
@@ -97,12 +105,16 @@ body {
 }
 
 .sidebar-section ul {
+    text-align: left !important;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .sidebar-section li {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center;
     font-size: 0.9rem;
     margin-bottom: 0.3rem;
 }
@@ -343,7 +355,7 @@ body {
         border-bottom: 1px solid var(--border);
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start !important;
     }
   
     .content {

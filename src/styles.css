@@ -449,7 +449,7 @@ body {
 
 @media (max-width: 600px) {
     .top-nav a {
-        font-size: 1rem; /* mobile size */
+        font-size: 0.95rem; /* mobile size */
     }
 
     .top-nav {

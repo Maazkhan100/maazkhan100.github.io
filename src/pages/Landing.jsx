@@ -33,7 +33,7 @@ export default function Landing() {
     {
       title: "IEEE PES ISGT ME 2025 conference presentation",
       source: "Conference",
-      link: "https://drive.google.com/file/d/1MI5xMQqIe7vsbTtyK1WAR9C1nygbbiK3/view?usp=sharing",
+      link: "h",
       date: "25 November 2025",
     },
     {

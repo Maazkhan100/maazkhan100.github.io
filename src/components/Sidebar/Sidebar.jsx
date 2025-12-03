@@ -23,7 +23,7 @@ export default function Sidebar() {
         {/* LOCATION */}
         <li style={{ display: "flex", alignItems: "center", gap: "0.45rem", color: "#000" }}>
           <FaMapMarkerAlt size={15} color="#000" />
-          <span style={{ color: "#000", fontSize: "0.95rem" }}>LUMS DHA Phase 5, Lahore, Pakistan</span>
+          <span style={{ color: "#000", fontSize: "0.95rem" }}>LUMS DHA Phase 5, Lahore, ZIP Code: 54792, Pakistan</span>
         </li>
 
         {/* EMAIL */}
@@ -75,7 +75,7 @@ export default function Sidebar() {
 
       <div className="sidebar-section">
         <h3>Resume</h3>
-        <a className="button" href="/maaz_resume.pdf" target="_blank">
+        <a className="button" href="/maaz resume.pdf" target="_blank">
           Download PDF
         </a>
       </div>

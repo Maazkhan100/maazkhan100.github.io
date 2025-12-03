@@ -37,9 +37,9 @@ export default function ResearchProjects() {
       <div className="media-row">
         <div className="media-item">
           <video controls className="project-media">
-            <source src="/videos/P2PET.mp4" type="video/mp4" />
+            <source src="/videos/Energy Trading.mp4" type="video/mp4" />
           </video>
-          <p className="media-caption">Video 1: Performance evaluation demo</p>
+          <p className="media-caption">Video 1: Peer-peer Energy Trading demo</p>
         </div>
 
         <div className="media-item">

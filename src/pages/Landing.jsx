@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaMedium, FaGithub, FaGraduationCap, FaBook } from "react-icons/fa";
 import { RxDotFilled } from "react-icons/rx";
+import gwuIcon from "../assets/university.png";
 
 export default function Landing() {
 
@@ -24,12 +25,21 @@ export default function Landing() {
     if (t.includes("linkedin")) {
       return <FaLinkedin size={20} />;
     }
+    if (t.includes("scholarship")) {
+      return <img src={gwuIcon} alt="Uni" style={{ width: "22px", height: "22px" }} />;
+    }
 
     // Default fallback icon
     return <FaBook size={20} />;
   };
 
   const updates = [
+    {
+      title: "Scholarship: International Impact Award",
+      source: "George Washington University",
+      link: "https://www.gwu.edu/",
+      date: "December 2025",
+    },
     {
       title: "IEEE PES ISGT ME 2025 conference presentation",
       source: "Conference",
@@ -41,12 +51,6 @@ export default function Landing() {
       source: "Conference",
       link: "https://me.ieee-isgt.org/",
       date: "02 August 2025",
-    },
-    {
-      title: "Journal paper published in Computers",
-      source: "Journal Article",
-      link: "https://www.mdpi.com/2073-431X/14/4/132",
-      date: "03 April 2025",
     },
   ];
 

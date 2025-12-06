@@ -155,7 +155,7 @@ body {
     padding: 1.5rem 2.5rem 3rem;
 }
 
-.top-nav {
+/* .top-nav {
     display: flex;
     justify-content: flex-end;
     gap: 1.5rem;
@@ -166,6 +166,51 @@ body {
     top: 0;
     background: var(--bg);
     z-index: 10;
+} */
+
+.top-nav {
+    display: flex;
+    justify-content: space-between; /* brand left, links right */
+    align-items: center;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 10;
+}
+
+/* Brand on the left */
+.nav-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+/* Optional accent on the word “Portfolio” */
+.nav-brand span {
+    color: var(--accent);
+}
+
+/* Right-side links container */
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Only apply this style to nav links on the right */
+.nav-links a {
+    text-decoration: none;
+    color: var(--muted);
+    font-size: 1.35rem;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
 }
 
 .top-nav a {
@@ -405,14 +450,27 @@ body {
 /* MOBILE: 0–500px */
 @media (max-width: 500px) {
     .top-nav {
-      display: flex;
-      justify-content: flex-end;
-      flex-wrap: wrap;
-      gap: 0.5rem;
+        justify-content: flex-end;
     }
   
     .top-nav a {
       font-size: 0.93rem;
+    }
+
+    /* Hide "Maaz Portfolio" on mobile */
+    .nav-brand {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .nav-links a {
+        font-size: 0.93rem;
     }
   
     .app {
@@ -464,6 +522,16 @@ body {
     .top-nav a {
       font-size: 0.98rem;
     }
+
+    .nav-links {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+  
+    .nav-links a {
+        font-size: 0.98rem;
+    }
 }
 
 /* TABLET: 601–900px */
@@ -477,6 +545,16 @@ body {
 
     .top-nav a {
       font-size: 1.3rem;
+    }
+
+    .nav-links {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+  
+    .nav-links a {
+        font-size: 1.3rem;
     }
 
     .app {

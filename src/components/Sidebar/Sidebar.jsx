@@ -75,7 +75,7 @@ export default function Sidebar() {
 
       <div className="sidebar-section">
         <h3>Resume</h3>
-        <a className="button" href="/maaz resume.pdf" target="_blank">
+        <a className="button" href="/maaz_resume.pdf" target="_blank">
           Download PDF
         </a>
       </div>

@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaLinkedin, FaMedium, FaGithub, FaGraduationCap, FaBook } from "react-icons/fa";
+import { FaLinkedin, FaUniversity, FaMedium, FaGithub, FaGraduationCap, FaBook } from "react-icons/fa";
 import { RxDotFilled } from "react-icons/rx";
-import gwuIcon from "../assets/university.png";
 
 export default function Landing() {
 
@@ -26,7 +25,7 @@ export default function Landing() {
       return <FaLinkedin size={20} />;
     }
     if (t.includes("scholarship")) {
-      return <img src={gwuIcon} alt="Uni" style={{ width: "22px", height: "22px" }} />;
+      return <FaUniversity size={20} />;
     }
 
     // Default fallback icon

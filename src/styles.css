@@ -155,19 +155,6 @@ body {
     padding: 1.5rem 2.5rem 3rem;
 }
 
-/* .top-nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1.5rem;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 0.75rem;
-    margin-bottom: 1.5rem;
-    position: sticky;
-    top: 0;
-    background: var(--bg);
-    z-index: 10;
-} */
-
 .top-nav {
     display: flex;
     justify-content: space-between; /* brand left, links right */
@@ -536,13 +523,6 @@ body {
 
 /* TABLET: 601–900px */
 @media (min-width: 601px) and (max-width: 900px) {
-    /* .top-nav {
-      display: flex;
-      justify-content: flex-end;
-      flex-wrap: wrap;
-      gap: 1rem;
-    } */
-
     .top-nav a {
       font-size: 1.3rem;
     }

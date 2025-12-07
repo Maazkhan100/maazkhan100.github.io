@@ -448,11 +448,11 @@ body {
 }
 
 /* MOBILE: 0–500px */
-@media (max-width: 500px) {
-    .top-nav {
-        justify-content: flex-end;
+@media (max-width: 500px) {  
+    .top-nav{
+        justify-content: center;
     }
-  
+
     .top-nav a {
       font-size: 0.93rem;
     }
@@ -536,12 +536,12 @@ body {
 
 /* TABLET: 601–900px */
 @media (min-width: 601px) and (max-width: 900px) {
-    .top-nav {
+    /* .top-nav {
       display: flex;
       justify-content: flex-end;
       flex-wrap: wrap;
       gap: 1rem;
-    }
+    } */
 
     .top-nav a {
       font-size: 1.3rem;

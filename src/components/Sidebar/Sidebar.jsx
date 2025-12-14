@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaResearchgate } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
 
 export default function Sidebar() {
@@ -67,6 +67,17 @@ export default function Sidebar() {
             style={{ display: "flex", alignItems: "center", gap: "0.45rem", color: "#000" }}
           >
             <SiGooglescholar size={15} color="#1a73e8" /> Google Scholar
+          </a>
+        </li>
+
+        {/* Researchgate */}
+        <li>
+          <a
+            href="https://www.researchgate.net/profile/Maaz-Muhammad-Khan-2?ev=hdr_xprf"
+            target="_blank"
+            style={{ display: "flex", alignItems: "center", gap: "0.45rem", color: "#000" }}
+          >
+            <FaResearchgate size={15} color="#1a73e8" /> Researchgate
           </a>
         </li>
 

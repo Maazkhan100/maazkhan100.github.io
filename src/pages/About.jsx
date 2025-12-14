@@ -5,8 +5,8 @@ export default function About() {
     <section className="section">
       <h2>About Me</h2>
       <p>
-        I am a Research Assistant at the Lahore University of Management Sciences
-        (LUMS), currently working on blockchain applications in renewable energy
+        As a Research Assistant at the Lahore University of Management Sciences
+        (LUMS), worked on blockchain applications in renewable energy
         systems. My research interest focuses on blockchain technology and its applications,
         including cryptocurrencies, tokenization of real-world assets, DeFi, and
         Artificial Intelligence.

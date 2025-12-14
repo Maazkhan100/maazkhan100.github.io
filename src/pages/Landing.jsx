@@ -58,7 +58,7 @@ export default function Landing() {
       <h2>Welcome!</h2>
 
       <p>
-        Hi, I am Maaz and currently working as a Research Assistant at the Lahore 
+        Hi, I am Maaz and previously worked as a Research Assistant at the Lahore 
         University of Management Sciences (LUMS). You can find the updates of my 
         latest research and projects here. If you would like to learn more about my 
         research projects, or publications, please visit

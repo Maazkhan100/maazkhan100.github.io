@@ -58,11 +58,12 @@ export default function Landing() {
       <h2>Welcome!</h2>
 
       <p>
-        Hi, I am Maaz and previously worked as a Research Assistant at the Lahore 
-        University of Management Sciences (LUMS). You can find the updates of my 
-        latest research and projects here. If you would like to learn more about my 
-        research projects, or publications, please visit
-        the <Link to="/research-projects" className="link-design">Research Projects</Link> and <Link to="/publications" className="link-design">Publications</Link> pages.
+        Hi, I am Maaz, and I recently moved to the USA. Previously, I worked as a 
+        Research Assistant at the Lahore University of Management Sciences (LUMS). 
+        You can find the updates of my latest research and projects here. If you 
+        would like to learn more about my research projects, or publications, please 
+        visit the <Link to="/research-projects" className="link-design">Research 
+        Projects</Link> and <Link to="/publications" className="link-design">Publications</Link> pages.
       </p>
 
       <p>

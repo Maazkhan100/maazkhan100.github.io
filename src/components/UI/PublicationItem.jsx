@@ -23,7 +23,7 @@ export default function PublicationItem({ authors, year, title, venue, link, GS,
             {"("}Research Gate{")"}
           </a>
         )}
-      </p>
+      </p> 
     </div>
   );
 }

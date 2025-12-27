@@ -13,6 +13,8 @@ export default function Publications() {
         title="Scalability and Efficiency Analysis of Hyperledger Fabric and Private Ethereum."
         venue="Computers, Vol. 14, Issue 4."
         link=" https://doi.org/10.3390/computers14040132"
+        GS="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MIULc_QAAAAJ&citation_for_view=MIULc_QAAAAJ:d1gkVwhDpl0C"
+        RG="https://www.researchgate.net/publication/390463523_Scalability_and_Efficiency_Analysis_of_Hyperledger_Fabric_and_Private_Ethereum_in_Smart_Contract_Execution"
       />
 
       <h3>Under Review / In Submission</h3>

@@ -8,7 +8,7 @@ export default function Sidebar() {
     <aside className="sidebar">
       <div className="profile-image">
         <Link to="/">
-          <img src="/profile.jpg" alt="Maaz Muhammad Khan" />
+          <img src="/profile.png" alt="Maaz Muhammad Khan" />
         </Link>
       </div>
       <Link to="/" className="name">

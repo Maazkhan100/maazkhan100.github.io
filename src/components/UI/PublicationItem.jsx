@@ -10,7 +10,7 @@ export default function PublicationItem({ authors, year, title, venue, link, GS,
         <em>{venue}</em>{" "}
         {link && (
           <a href={link} target="_blank" className="anchor">
-            {"("}Journal link{")"}
+            {"("}Paper link{")"}
           </a>
         )}{" "}
         {GS && (

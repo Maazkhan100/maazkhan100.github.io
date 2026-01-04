@@ -9,6 +9,7 @@ import ResearchProjects from "./pages/ResearchProjects";
 import Publications from "./pages/Publications";
 import Awards from "./pages/Awards";
 import Landing from "./pages/Landing";
+// import Contact from "./pages/Contact";
 
 import "./styles.css";
 
@@ -27,6 +28,7 @@ export default function App() {
             <Route path="/research-projects" element={<ResearchProjects />} />
             <Route path="/publications" element={<Publications />} />
             <Route path="/awards" element={<Awards />} />
+            {/* <Route path="/contact" element={<Contact />} /> */}
           </Routes>
         </main>
       </div>

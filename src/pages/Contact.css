@@ -1,0 +1,50 @@
+.contact-container {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-family: Arial;
+}
+  
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+  
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    background: #0078ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background: #005ccc;
+}
+  
+.status {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+  

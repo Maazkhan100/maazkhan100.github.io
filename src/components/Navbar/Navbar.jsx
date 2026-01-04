@@ -13,6 +13,7 @@ export default function Navbar() {
         <Link to="/research-projects">Research Projects</Link>
         <Link to="/publications">Publications</Link>
         <Link to="/awards">Awards</Link>
+        {/* <Link to="/contact">Contact</Link> */}
       </div>
     </nav>
   );

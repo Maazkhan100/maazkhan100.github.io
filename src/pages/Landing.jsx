@@ -34,6 +34,12 @@ export default function Landing() {
 
   const updates = [
     {
+      title: "Paper published in 2025 IEEE PES Conference on ISGT - Middle East",
+      source: "Conference",
+      link: "https://ieeexplore.ieee.org/document/11314391",
+      date: "02 January 2026",
+    },
+    {
       title: "Scholarship: International Impact Award",
       source: "George Washington University",
       link: "https://www.gwu.edu/",
@@ -44,12 +50,6 @@ export default function Landing() {
       source: "Conference",
       link: "https://drive.google.com/file/d/1MI5xMQqIe7vsbTtyK1WAR9C1nygbbiK3/view?usp=sharing",
       date: "25 November 2025",
-    },
-    {
-      title: "Paper accepted in IEEE PES ISGT ME 2025 conference",
-      source: "Conference",
-      link: "https://me.ieee-isgt.org/",
-      date: "02 August 2025",
     },
   ];
 

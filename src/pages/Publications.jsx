@@ -20,7 +20,7 @@ export default function Publications() {
       <PublicationItem
         authors="Khan, M.M., Imran, Z., & Hasan, N.U.,"
         year="2025"
-        title="Performance Analysis of Double Auction Implementations for P2P Energy Trading."
+        title="Performance Analysis of Double Auction Implementations for Peer-to-Peer Energy Trading on Resource Constrained Blockchain Platforms."
         venue="2025 IEEE PES Conference on Innovative Smart Grid Technologies - Middle East (ISGT Middle East)"
         link="https://ieeexplore.ieee.org/document/11314391"
         GS="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MIULc_QAAAAJ&citation_for_view=MIULc_QAAAAJ:9yKSN-GCB0IC"

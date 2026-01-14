@@ -58,7 +58,8 @@ export default function Landing() {
       <h2>Welcome!</h2>
 
       <p>
-        Hi, I am Maaz, and I recently moved to the USA. Previously, I worked as a 
+        Hi, I am Maaz, and I recently moved to the USA to pursue my MS in Computer 
+        Science at the George Washington University. Previously, I worked as a 
         Research Assistant at the Lahore University of Management Sciences (LUMS). 
         You can find the updates of my latest research and projects here. If you 
         would like to learn more about my research projects, or publications, please 

@@ -15,7 +15,7 @@ export default function Sidebar() {
         Maaz Muhammad Khan
       </Link>
       <p className="title">
-        Research Assistant: Lahore University of Management Sciences (LUMS)
+        Graduate Student: The George Washington University (GWU)
       </p>
 
       <div className="sidebar-section">

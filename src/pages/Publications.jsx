@@ -23,7 +23,7 @@ export default function Publications() {
         title="Performance Analysis of Double Auction Implementations for Peer-to-Peer Energy Trading on Resource Constrained Blockchain Platforms."
         venue="2025 IEEE PES Conference on Innovative Smart Grid Technologies - Middle East (ISGT Middle East)"
         link="https://ieeexplore.ieee.org/document/11314391"
-        GS="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MIULc_QAAAAJ&citation_for_view=MIULc_QAAAAJ:9yKSN-GCB0IC"
+        GS="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MIULc_QAAAAJ&citation_for_view=MIULc_QAAAAJ:2osOgNQ5qMEC"
         RG="https://www.researchgate.net/publication/399394139_Performance_Analysis_of_Double_Auction_Implementations_for_Peer-to-Peer_Energy_Trading_on_Resource_Constrained_Blockchain_Platforms"
       />
     </section>

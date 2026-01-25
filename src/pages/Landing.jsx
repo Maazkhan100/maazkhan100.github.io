@@ -12,19 +12,19 @@ export default function Landing() {
     if (t.includes("conference") || t.includes("presentation")) {
       return <FaGraduationCap size={20} />;
     }
-    if (t.includes("journal") || t.includes("published") || t.includes("paper")) {
+    else if (t.includes("journal") || t.includes("published") || t.includes("paper")) {
       return <FaBook size={20} />;
     }
-    if (t.includes("github")) {
+    else if (t.includes("github")) {
       return <FaGithub size={20} />;
     }
-    if (t.includes("medium")) {
+    else if (t.includes("medium")) {
       return <FaMedium size={20} />;
     }
-    if (t.includes("linkedin")) {
+    else if (t.includes("linkedin")) {
       return <FaLinkedin size={20} />;
     }
-    if (t.includes("scholarship")) {
+    else if (t.includes("scholarship") || t.includes("gwu")) {
       return <FaUniversity size={20} />;
     }
 
@@ -33,6 +33,12 @@ export default function Landing() {
   };
 
   const updates = [
+    {
+      title: "Started Master's in Computer Science at GWU",
+      source: "George Washington University",
+      link: "https://www.gwu.edu/",
+      date: "12 January 2026",
+    },
     {
       title: "Paper published in 2025 IEEE PES Conference on ISGT - Middle East",
       source: "Conference",
@@ -44,12 +50,6 @@ export default function Landing() {
       source: "George Washington University",
       link: "https://www.gwu.edu/",
       date: "December 2025",
-    },
-    {
-      title: "IEEE PES ISGT ME 2025 conference presentation",
-      source: "Conference",
-      link: "https://drive.google.com/file/d/1MI5xMQqIe7vsbTtyK1WAR9C1nygbbiK3/view?usp=sharing",
-      date: "25 November 2025",
     },
   ];
 

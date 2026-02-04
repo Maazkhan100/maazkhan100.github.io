@@ -6,7 +6,7 @@ export default function Publications() {
     <section className="section">
       <h2>Publications</h2>
 
-      <h3>Journal Articles</h3>
+      <h3>Journal Article</h3>
       <PublicationItem
         authors="Khan, M. M., Khan, F. S., Nadeem, M., Khan, T. H., Haider, S., & Daas, D,"
         year="2025"
@@ -17,6 +17,7 @@ export default function Publications() {
         RG="https://www.researchgate.net/publication/390463523_Scalability_and_Efficiency_Analysis_of_Hyperledger_Fabric_and_Private_Ethereum_in_Smart_Contract_Execution"
       />
 
+      <h3>Conference Article</h3>
       <PublicationItem
         authors="Khan, M.M., Imran, Z., & Hasan, N.U.,"
         year="2025"
